@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.tudresden.inf.st.mquat.solving.EMFeRSolverTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-06-24T14:36:22" hostname="Samaneh-PC" time="15.057">
+  <properties/>
+  <testcase name="testEmferSolver" classname="de.tudresden.inf.st.mquat.solving.EMFeRSolverTest" time="15.05"/>
+  <testcase name="testListener" classname="de.tudresden.inf.st.mquat.solving.EMFeRSolverTest" time="0.007"/>
+  <system-out><![CDATA[number of explored states: 3677
+emfer searching for best solution in 6923
+19:06:37.472 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:06:37.472 INFO  d.t.i.s.m.s.EMFeRSolverTest - the best solution is invalid and has an objective of 0.0.
+ENTRY_MODIFY message.txt
+Hello World
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+08:48:13.177 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - ScenarioBenchmark:
+Timeout: 15 minutes
+TopLevelComponents: 1
+AvgNumImplSubComponents: 0
+ImplSubComponentDerivation: 0
+AvgNumCompSubComponents: 2
+CompSubComponentDerivation: 0
+ComponentDepth: 2
+NumImplementations: 10
+Requests: 15
+Cpus: 1
+ResourceRatio: 1.5
+Seed: 0
+Solvers: ir.ac.ui.eng.ACOSolver@4efbca5a, de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver@1b7cc17c, de.tudresden.inf.st.mquat.solving.simple.SimpleSolver@59662a0b, uniks.EMFeRSolver@77fbd92c, de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver@67c27493
+Repetitions: 1
+Result file: 4_medium.csv
+08:48:13.183 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Going to create 1 of 1 models
+08:48:13.187 DEBUG de.tudresden.inf.st.mquat.utils.TestGenerator - Test 0 with tlc=1, iac=0, isd=0, cac=2, csd=0, dep=2, imp=10, res=1.5, req=15, cpu=1, seed=0
+08:48:13.204 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Starting model generation
+08:48:13.252 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Model:  [3 component(s), 30 implementation(s), 15 request(s), 68 container(s)]
+08:48:13.281 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'aco'
+08:50:01.003 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 8747603.09.
+08:50:01.442 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 8747555.58.
+08:50:06.287 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 50000
+08:50:06.288 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 6573
+08:50:06.288 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 4095
+08:50:06.288 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 12
+08:50:06.291 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver aco found a valid solution in 113005ms
+08:50:06.294 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'ilp-direct'
+09:02:13.210 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver ilp-direct found a valid solution in 4223 + 722671ms
+09:02:13.218 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'simple'
+09:17:13.268 WARN  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Timeout! Solving terminated!
+09:17:13.286 INFO  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Number of total software solutions: 765569221
+09:17:13.301 INFO  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Number of iterated software solutions: 0
+09:17:13.301 INFO  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Number of iterated solutions: 0
+09:17:13.408 INFO  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Number of correct solutions: 0
+09:17:13.408 WARN  de.tudresden.inf.st.mquat.solving.simple.SimpleSolver - Found no solution!
+09:17:13.431 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver simple found NO solution in 900172ms -> Timed out
+09:17:13.448 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'emfer'

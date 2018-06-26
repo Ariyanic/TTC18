@@ -1,0 +1,26 @@
+solution {
+ request0 -> implementation_0i1 {
+  compute_resource_0 -> resource0 {
+   cpu_0 -> cpu0_0
+   ram_1 -> ram0
+   disk_1 -> disk0
+   network_1 -> network0
+  }
+  the_component_0c0 -> implementation_0c0i0 {
+   compute_resource_0 -> resource1 {
+    cpu_0 -> cpu1_0
+    ram_1 -> ram1
+    disk_1 -> disk1
+    network_1 -> network1
+   }
+  }
+  the_component_0c1 -> implementation_0c1i0 {
+   compute_resource_0 -> resource2 {
+    cpu_0 -> cpu2_0
+    ram_1 -> ram2
+    disk_1 -> disk2
+    network_1 -> network2
+   }
+  }
+ }
+}

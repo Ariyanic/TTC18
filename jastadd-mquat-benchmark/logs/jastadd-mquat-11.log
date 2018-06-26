@@ -1,0 +1,2 @@
+08:11:06.962 FATAL de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Could not create or write header to the benchmark file C:\Users\imenrayan\Desktop\EMFeRTTC18-master\jastadd-mquat-benchmark\results\scenarios\4_medium.csv. java.nio.file.FileSystemException: results\scenarios\4_medium.csv: The process cannot access the file because it is being used by another process.
+. Exiting.

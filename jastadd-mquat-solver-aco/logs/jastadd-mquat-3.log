@@ -1,0 +1,136 @@
+19:19:39.141 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:19:39.141 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:19:39.141 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:19:39.141 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:19:39.147 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:19:39.148 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 24
+19:19:39.149 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 23
+19:19:39.149 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 23
+19:19:39.150 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+19:19:39.180 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292391.04.
+19:19:39.180 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292391.04.
+19:19:39.184 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:19:39.185 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 36
+19:19:39.185 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 35
+19:19:39.185 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 34
+19:19:39.186 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+19:19:39.215 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 324731.04.
+19:19:39.220 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:19:39.221 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 11
+19:19:39.221 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 11
+19:19:39.221 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 11
+19:19:39.222 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+ request1 -> config_1i0m0 {
+  compute_resource_0 -> r2 {
+   cpu_1 -> cpu2_0
+  }
+ }
+}
+
+19:19:39.252 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 375166.51999999996.
+19:19:39.257 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:19:39.257 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 11
+19:19:39.257 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 11
+19:19:39.258 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 11
+19:19:39.258 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  alpha -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+  beta -> config_2i0m0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+  }
+ }
+}
+
+19:19:39.306 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 23419.660000000003.
+19:19:39.311 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 22997.66.
+19:19:39.304 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 398519.6599999999.
+19:19:39.317 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:19:39.317 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 11
+19:19:39.322 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 11
+19:19:39.322 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 11
+19:19:39.325 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> configA0 {
+  compute_resource_0 -> r6 {
+   cpu_1 -> cpu0_0
+  }
+  beta -> configB0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+   chi -> configC0 {
+    compute_resource_0 -> r4 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   delta -> configD0 {
+    compute_resource_0 -> r0 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+  epsilon -> configE0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+   phi -> configF0 {
+    compute_resource_0 -> r5 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   gamma -> configG0 {
+    compute_resource_0 -> r3 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+ }
+}
+

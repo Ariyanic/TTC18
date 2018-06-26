@@ -1,0 +1,21 @@
+00:02:54.325 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - ScenarioBenchmark:
+Timeout: 15 minutes
+TopLevelComponents: 1
+AvgNumImplSubComponents: 0
+ImplSubComponentDerivation: 0
+AvgNumCompSubComponents: 2
+CompSubComponentDerivation: 0
+ComponentDepth: 2
+NumImplementations: 10
+Requests: 15
+Cpus: 1
+ResourceRatio: 1.5
+Seed: 0
+Solvers: ir.ac.ui.eng.ACOSolver@59662a0b, de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver@77fbd92c, de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver@67c27493, de.tudresden.inf.st.mquat.solving.simple.SimpleSolver@1a482e36, uniks.EMFeRSolver@72967906
+Repetitions: 1
+Result file: 4_medium.csv
+00:02:54.331 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Going to create 1 of 1 models
+00:02:54.335 DEBUG de.tudresden.inf.st.mquat.utils.TestGenerator - Test 0 with tlc=1, iac=0, isd=0, cac=2, csd=0, dep=2, imp=10, res=1.5, req=15, cpu=1, seed=0
+00:02:54.358 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Starting model generation
+00:02:54.416 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Model:  [3 component(s), 30 implementation(s), 15 request(s), 68 container(s)]
+00:02:54.465 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'aco'

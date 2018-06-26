@@ -1,0 +1,362 @@
+solution {
+ request0 -> implementation_0i7 {
+  compute_resource_0 -> resource63 {
+   cpu_0 -> cpu63_0
+   ram_1 -> ram63
+   disk_1 -> disk63
+   network_1 -> network63
+  }
+  the_component_0c0 -> implementation_0c0i6 {
+   compute_resource_0 -> resource28 {
+    cpu_0 -> cpu28_0
+    ram_1 -> ram28
+    disk_1 -> disk28
+    network_1 -> network28
+   }
+  }
+  the_component_0c1 -> implementation_0c1i5 {
+   compute_resource_0 -> resource46 {
+    cpu_0 -> cpu46_0
+    ram_1 -> ram46
+    disk_1 -> disk46
+    network_1 -> network46
+   }
+  }
+ }
+ request1 -> implementation_0i7 {
+  compute_resource_0 -> resource0 {
+   cpu_0 -> cpu0_0
+   ram_1 -> ram0
+   disk_1 -> disk0
+   network_1 -> network0
+  }
+  the_component_0c0 -> implementation_0c0i8 {
+   compute_resource_0 -> resource59 {
+    cpu_0 -> cpu59_0
+    ram_1 -> ram59
+    disk_1 -> disk59
+    network_1 -> network59
+   }
+  }
+  the_component_0c1 -> implementation_0c1i7 {
+   compute_resource_0 -> resource45 {
+    cpu_0 -> cpu45_0
+    ram_1 -> ram45
+    disk_1 -> disk45
+    network_1 -> network45
+   }
+  }
+ }
+ request2 -> implementation_0i8 {
+  compute_resource_0 -> resource15 {
+   cpu_0 -> cpu15_0
+   ram_1 -> ram15
+   disk_1 -> disk15
+   network_1 -> network15
+  }
+  the_component_0c0 -> implementation_0c0i3 {
+   compute_resource_0 -> resource43 {
+    cpu_0 -> cpu43_0
+    ram_1 -> ram43
+    disk_1 -> disk43
+    network_1 -> network43
+   }
+  }
+  the_component_0c1 -> implementation_0c1i4 {
+   compute_resource_0 -> resource29 {
+    cpu_0 -> cpu29_0
+    ram_1 -> ram29
+    disk_1 -> disk29
+    network_1 -> network29
+   }
+  }
+ }
+ request3 -> implementation_0i3 {
+  compute_resource_0 -> resource27 {
+   cpu_0 -> cpu27_0
+   ram_1 -> ram27
+   disk_1 -> disk27
+   network_1 -> network27
+  }
+  the_component_0c0 -> implementation_0c0i9 {
+   compute_resource_0 -> resource17 {
+    cpu_0 -> cpu17_0
+    ram_1 -> ram17
+    disk_1 -> disk17
+    network_1 -> network17
+   }
+  }
+  the_component_0c1 -> implementation_0c1i2 {
+   compute_resource_0 -> resource5 {
+    cpu_0 -> cpu5_0
+    ram_1 -> ram5
+    disk_1 -> disk5
+    network_1 -> network5
+   }
+  }
+ }
+ request4 -> implementation_0i7 {
+  compute_resource_0 -> resource39 {
+   cpu_0 -> cpu39_0
+   ram_1 -> ram39
+   disk_1 -> disk39
+   network_1 -> network39
+  }
+  the_component_0c0 -> implementation_0c0i0 {
+   compute_resource_0 -> resource10 {
+    cpu_0 -> cpu10_0
+    ram_1 -> ram10
+    disk_1 -> disk10
+    network_1 -> network10
+   }
+  }
+  the_component_0c1 -> implementation_0c1i3 {
+   compute_resource_0 -> resource32 {
+    cpu_0 -> cpu32_0
+    ram_1 -> ram32
+    disk_1 -> disk32
+    network_1 -> network32
+   }
+  }
+ }
+ request5 -> implementation_0i6 {
+  compute_resource_0 -> resource24 {
+   cpu_0 -> cpu24_0
+   ram_1 -> ram24
+   disk_1 -> disk24
+   network_1 -> network24
+  }
+  the_component_0c0 -> implementation_0c0i9 {
+   compute_resource_0 -> resource31 {
+    cpu_0 -> cpu31_0
+    ram_1 -> ram31
+    disk_1 -> disk31
+    network_1 -> network31
+   }
+  }
+  the_component_0c1 -> implementation_0c1i1 {
+   compute_resource_0 -> resource44 {
+    cpu_0 -> cpu44_0
+    ram_1 -> ram44
+    disk_1 -> disk44
+    network_1 -> network44
+   }
+  }
+ }
+ request6 -> implementation_0i5 {
+  compute_resource_0 -> resource42 {
+   cpu_0 -> cpu42_0
+   ram_1 -> ram42
+   disk_1 -> disk42
+   network_1 -> network42
+  }
+  the_component_0c0 -> implementation_0c0i3 {
+   compute_resource_0 -> resource19 {
+    cpu_0 -> cpu19_0
+    ram_1 -> ram19
+    disk_1 -> disk19
+    network_1 -> network19
+   }
+  }
+  the_component_0c1 -> implementation_0c1i2 {
+   compute_resource_0 -> resource20 {
+    cpu_0 -> cpu20_0
+    ram_1 -> ram20
+    disk_1 -> disk20
+    network_1 -> network20
+   }
+  }
+ }
+ request7 -> implementation_0i4 {
+  compute_resource_0 -> resource21 {
+   cpu_0 -> cpu21_0
+   ram_1 -> ram21
+   disk_1 -> disk21
+   network_1 -> network21
+  }
+  the_component_0c0 -> implementation_0c0i1 {
+   compute_resource_0 -> resource4 {
+    cpu_0 -> cpu4_0
+    ram_1 -> ram4
+    disk_1 -> disk4
+    network_1 -> network4
+   }
+  }
+  the_component_0c1 -> implementation_0c1i8 {
+   compute_resource_0 -> resource53 {
+    cpu_0 -> cpu53_0
+    ram_1 -> ram53
+    disk_1 -> disk53
+    network_1 -> network53
+   }
+  }
+ }
+ request8 -> implementation_0i6 {
+  compute_resource_0 -> resource65 {
+   cpu_0 -> cpu65_0
+   ram_1 -> ram65
+   disk_1 -> disk65
+   network_1 -> network65
+  }
+  the_component_0c0 -> implementation_0c0i4 {
+   compute_resource_0 -> resource25 {
+    cpu_0 -> cpu25_0
+    ram_1 -> ram25
+    disk_1 -> disk25
+    network_1 -> network25
+   }
+  }
+  the_component_0c1 -> implementation_0c1i4 {
+   compute_resource_0 -> resource35 {
+    cpu_0 -> cpu35_0
+    ram_1 -> ram35
+    disk_1 -> disk35
+    network_1 -> network35
+   }
+  }
+ }
+ request9 -> implementation_0i7 {
+  compute_resource_0 -> resource36 {
+   cpu_0 -> cpu36_0
+   ram_1 -> ram36
+   disk_1 -> disk36
+   network_1 -> network36
+  }
+  the_component_0c0 -> implementation_0c0i0 {
+   compute_resource_0 -> resource18 {
+    cpu_0 -> cpu18_0
+    ram_1 -> ram18
+    disk_1 -> disk18
+    network_1 -> network18
+   }
+  }
+  the_component_0c1 -> implementation_0c1i4 {
+   compute_resource_0 -> resource38 {
+    cpu_0 -> cpu38_0
+    ram_1 -> ram38
+    disk_1 -> disk38
+    network_1 -> network38
+   }
+  }
+ }
+ request10 -> implementation_0i2 {
+  compute_resource_0 -> resource56 {
+   cpu_0 -> cpu56_0
+   ram_1 -> ram56
+   disk_1 -> disk56
+   network_1 -> network56
+  }
+  the_component_0c0 -> implementation_0c0i4 {
+   compute_resource_0 -> resource37 {
+    cpu_0 -> cpu37_0
+    ram_1 -> ram37
+    disk_1 -> disk37
+    network_1 -> network37
+   }
+  }
+  the_component_0c1 -> implementation_0c1i7 {
+   compute_resource_0 -> resource2 {
+    cpu_0 -> cpu2_0
+    ram_1 -> ram2
+    disk_1 -> disk2
+    network_1 -> network2
+   }
+  }
+ }
+ request11 -> implementation_0i2 {
+  compute_resource_0 -> resource3 {
+   cpu_0 -> cpu3_0
+   ram_1 -> ram3
+   disk_1 -> disk3
+   network_1 -> network3
+  }
+  the_component_0c0 -> implementation_0c0i8 {
+   compute_resource_0 -> resource34 {
+    cpu_0 -> cpu34_0
+    ram_1 -> ram34
+    disk_1 -> disk34
+    network_1 -> network34
+   }
+  }
+  the_component_0c1 -> implementation_0c1i4 {
+   compute_resource_0 -> resource8 {
+    cpu_0 -> cpu8_0
+    ram_1 -> ram8
+    disk_1 -> disk8
+    network_1 -> network8
+   }
+  }
+ }
+ request12 -> implementation_0i6 {
+  compute_resource_0 -> resource12 {
+   cpu_0 -> cpu12_0
+   ram_1 -> ram12
+   disk_1 -> disk12
+   network_1 -> network12
+  }
+  the_component_0c0 -> implementation_0c0i2 {
+   compute_resource_0 -> resource22 {
+    cpu_0 -> cpu22_0
+    ram_1 -> ram22
+    disk_1 -> disk22
+    network_1 -> network22
+   }
+  }
+  the_component_0c1 -> implementation_0c1i2 {
+   compute_resource_0 -> resource23 {
+    cpu_0 -> cpu23_0
+    ram_1 -> ram23
+    disk_1 -> disk23
+    network_1 -> network23
+   }
+  }
+ }
+ request13 -> implementation_0i0 {
+  compute_resource_0 -> resource11 {
+   cpu_0 -> cpu11_0
+   ram_1 -> ram11
+   disk_1 -> disk11
+   network_1 -> network11
+  }
+  the_component_0c0 -> implementation_0c0i0 {
+   compute_resource_0 -> resource13 {
+    cpu_0 -> cpu13_0
+    ram_1 -> ram13
+    disk_1 -> disk13
+    network_1 -> network13
+   }
+  }
+  the_component_0c1 -> implementation_0c1i7 {
+   compute_resource_0 -> resource14 {
+    cpu_0 -> cpu14_0
+    ram_1 -> ram14
+    disk_1 -> disk14
+    network_1 -> network14
+   }
+  }
+ }
+ request14 -> implementation_0i0 {
+  compute_resource_0 -> resource33 {
+   cpu_0 -> cpu33_0
+   ram_1 -> ram33
+   disk_1 -> disk33
+   network_1 -> network33
+  }
+  the_component_0c0 -> implementation_0c0i2 {
+   compute_resource_0 -> resource7 {
+    cpu_0 -> cpu7_0
+    ram_1 -> ram7
+    disk_1 -> disk7
+    network_1 -> network7
+   }
+  }
+  the_component_0c1 -> implementation_0c1i4 {
+   compute_resource_0 -> resource26 {
+    cpu_0 -> cpu26_0
+    ram_1 -> ram26
+    disk_1 -> disk26
+    network_1 -> network26
+   }
+  }
+ }
+}

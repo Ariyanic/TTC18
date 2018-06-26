@@ -1,0 +1,28 @@
+21:08:17.484 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - ScenarioBenchmark:
+Timeout: 15 minutes
+TopLevelComponents: 1
+AvgNumImplSubComponents: 0
+ImplSubComponentDerivation: 0
+AvgNumCompSubComponents: 2
+CompSubComponentDerivation: 0
+ComponentDepth: 2
+NumImplementations: 10
+Requests: 15
+Cpus: 1
+ResourceRatio: 1.5
+Seed: 0
+Solvers: ir.ac.ui.eng.ACOSolver@59662a0b, de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver@77fbd92c, de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver@67c27493, uniks.EMFeRSolver@1a482e36, de.tudresden.inf.st.mquat.solving.simple.SimpleSolver@72967906
+Repetitions: 1
+Result file: 4_medium.csv
+21:08:17.492 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Going to create 1 of 1 models
+21:08:17.497 DEBUG de.tudresden.inf.st.mquat.utils.TestGenerator - Test 0 with tlc=1, iac=0, isd=0, cac=2, csd=0, dep=2, imp=10, res=1.5, req=15, cpu=1, seed=0
+21:08:17.533 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Starting model generation
+21:08:17.585 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Model:  [3 component(s), 30 implementation(s), 15 request(s), 68 container(s)]
+21:08:17.616 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'aco'
+21:10:14.278 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 50000
+21:10:14.278 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 6426
+21:10:14.278 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 0
+21:10:14.278 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 0
+21:10:14.279 WARN  ir.ac.ui.eng.ACOSolver - Found no solution!
+21:10:14.279 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver aco found NO solution in 116661ms
+21:10:14.281 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'ilp-direct'

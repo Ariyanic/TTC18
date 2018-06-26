@@ -1,0 +1,29 @@
+08:37:40.759 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - ScenarioBenchmark:
+Timeout: 15 minutes
+TopLevelComponents: 1
+AvgNumImplSubComponents: 0
+ImplSubComponentDerivation: 0
+AvgNumCompSubComponents: 2
+CompSubComponentDerivation: 0
+ComponentDepth: 2
+NumImplementations: 10
+Requests: 15
+Cpus: 1
+ResourceRatio: 1.5
+Seed: 0
+Solvers: ir.ac.ui.eng.ACOSolver@4efbca5a, de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver@1b7cc17c, de.tudresden.inf.st.mquat.solving.simple.SimpleSolver@59662a0b, uniks.EMFeRSolver@77fbd92c, de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver@67c27493
+Repetitions: 1
+Result file: 4_medium.csv
+08:37:40.765 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Going to create 1 of 1 models
+08:37:40.769 DEBUG de.tudresden.inf.st.mquat.utils.TestGenerator - Test 0 with tlc=1, iac=0, isd=0, cac=2, csd=0, dep=2, imp=10, res=1.5, req=15, cpu=1, seed=0
+08:37:40.781 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Starting model generation
+08:37:40.836 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Model:  [3 component(s), 30 implementation(s), 15 request(s), 68 container(s)]
+08:37:40.862 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'aco'
+08:39:27.519 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 9692450.16.
+08:39:29.843 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 9691272.169999998.
+08:39:30.931 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 50000
+08:39:30.932 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 6520
+08:39:30.932 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 3
+08:39:30.932 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 2
+08:39:30.933 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver aco found a valid solution in 110068ms
+08:39:30.936 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'ilp-direct'

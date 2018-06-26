@@ -1,0 +1,27 @@
+19:04:01.200 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:01.204 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+}
+
+19:04:01.217 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:01.217 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+}
+
+19:04:01.465 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:01.466 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+}
+
+19:04:01.524 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:01.525 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+}
+
+19:04:01.918 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:01.919 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+}
+
+19:04:16.971 INFO  uniks.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+19:04:16.972 INFO  de.tudresden.inf.st.mquat.solving.EMFeRSolverTest - the best solution is invalid and has an objective of 0.0.

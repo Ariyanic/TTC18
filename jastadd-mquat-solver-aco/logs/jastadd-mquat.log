@@ -1,0 +1,135 @@
+19:25:25.351 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:25:25.351 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292427.44.
+19:25:25.355 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:25:25.355 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 21
+19:25:25.356 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 20
+19:25:25.356 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 21
+19:25:25.357 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+19:25:25.388 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 292391.04.
+19:25:25.390 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:25:25.390 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 26
+19:25:25.391 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 25
+19:25:25.391 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 25
+19:25:25.391 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+19:25:25.418 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 324731.04.
+19:25:25.425 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:25:25.425 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 17
+19:25:25.425 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 17
+19:25:25.426 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 17
+19:25:25.426 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+ request1 -> config_1i0m0 {
+  compute_resource_0 -> r2 {
+   cpu_1 -> cpu2_0
+  }
+ }
+}
+
+19:25:25.455 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 375166.51999999996.
+19:25:25.459 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:25:25.459 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 8
+19:25:25.459 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 8
+19:25:25.459 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 8
+19:25:25.460 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  alpha -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+  beta -> config_2i0m0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+  }
+ }
+}
+
+19:25:25.520 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 396643.66.
+19:25:25.522 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 396342.6599999999.
+19:25:25.524 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 22699.660000000003.
+19:25:25.526 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 21919.66.
+19:25:25.519 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 397642.6599999999.
+19:25:25.533 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 100
+19:25:25.533 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 18
+19:25:25.534 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 18
+19:25:25.534 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 18
+19:25:25.535 DEBUG de.tudresden.inf.st.mquat.solving.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> configA0 {
+  compute_resource_0 -> r3 {
+   cpu_1 -> cpu0_0
+  }
+  beta -> configB0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+   chi -> configC0 {
+    compute_resource_0 -> r4 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   delta -> configD0 {
+    compute_resource_0 -> r6 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+  epsilon -> configE0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+   phi -> configF0 {
+    compute_resource_0 -> r5 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   gamma -> configG0 {
+    compute_resource_0 -> r0 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+ }
+}
+

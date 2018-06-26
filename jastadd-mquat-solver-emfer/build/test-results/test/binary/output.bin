@@ -1,0 +1,41 @@
+'Loading model DSL file 'test_01.txt'.
+(emfer searching for best solution in 9
+u19:06:21.779 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+@19:06:21.781 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+}
+
+'Loading model DSL file 'test_02.txt'.
+(emfer searching for best solution in 9
+u19:06:21.797 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+@19:06:21.797 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+}
+
+'Loading model DSL file 'test_03.txt'.
+)emfer searching for best solution in 35
+u19:06:21.897 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+@19:06:21.898 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+}
+
+'Loading model DSL file 'test_04.txt'.
+)emfer searching for best solution in 21
+u19:06:21.944 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+@19:06:21.945 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+}
+
+'Loading model DSL file 'test_05.txt'.
+*emfer searching for best solution in 381
+u19:06:22.416 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+@19:06:22.416 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+}
+
+!number of explored states: 3677
++emfer searching for best solution in 6923
+u19:06:37.472 INFO  u.EMFeRSolver - emfer found a solution with an objective of 0.0. Number of complete solutions 0 
+l19:06:37.472 INFO  d.t.i.s.m.s.EMFeRSolverTest - the best solution is invalid and has an objective of 0.0.
+	ENTRY_MODIFY message.txt
+	Hello World

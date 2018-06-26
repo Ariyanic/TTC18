@@ -1,0 +1,140 @@
+'Loading model DSL file 'test_01.txt'.
+`19:25:25.351 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 292427.44.
+`19:25:25.351 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 292427.44.
+P19:25:25.355 INFO  i.a.u.e.ACOSolver - Number of total software solutions: 100
+R19:25:25.355 INFO  i.a.u.e.ACOSolver - Number of iterated software solutions: 21
+I19:25:25.356 INFO  i.a.u.e.ACOSolver - Number of iterated solutions: 20
+H19:25:25.356 INFO  i.a.u.e.ACOSolver - Number of correct solutions: 21
+@19:25:25.357 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+'Loading model DSL file 'test_02.txt'.
+`19:25:25.388 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 292391.04.
+P19:25:25.390 INFO  i.a.u.e.ACOSolver - Number of total software solutions: 100
+R19:25:25.390 INFO  i.a.u.e.ACOSolver - Number of iterated software solutions: 26
+I19:25:25.391 INFO  i.a.u.e.ACOSolver - Number of iterated solutions: 25
+H19:25:25.391 INFO  i.a.u.e.ACOSolver - Number of correct solutions: 25
+@19:25:25.391 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+}
+
+'Loading model DSL file 'test_03.txt'.
+`19:25:25.418 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 324731.04.
+P19:25:25.425 INFO  i.a.u.e.ACOSolver - Number of total software solutions: 100
+R19:25:25.425 INFO  i.a.u.e.ACOSolver - Number of iterated software solutions: 17
+I19:25:25.425 INFO  i.a.u.e.ACOSolver - Number of iterated solutions: 17
+H19:25:25.426 INFO  i.a.u.e.ACOSolver - Number of correct solutions: 17
+@19:25:25.426 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  other -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+ }
+ request1 -> config_1i0m0 {
+  compute_resource_0 -> r2 {
+   cpu_1 -> cpu2_0
+  }
+ }
+}
+
+'Loading model DSL file 'test_04.txt'.
+i19:25:25.455 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 375166.51999999996.
+P19:25:25.459 INFO  i.a.u.e.ACOSolver - Number of total software solutions: 100
+Q19:25:25.459 INFO  i.a.u.e.ACOSolver - Number of iterated software solutions: 8
+H19:25:25.459 INFO  i.a.u.e.ACOSolver - Number of iterated solutions: 8
+G19:25:25.459 INFO  i.a.u.e.ACOSolver - Number of correct solutions: 8
+@19:25:25.460 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> config_0i0m0 {
+  compute_resource_0 -> r0 {
+   cpu_1 -> cpu0_0
+  }
+  alpha -> config_1i0m0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+  }
+  beta -> config_2i0m0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+  }
+ }
+}
+
+'Loading model DSL file 'test_05.txt'.
+`19:25:25.520 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 396643.66.
+h19:25:25.522 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 396342.6599999999.
+i19:25:25.524 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 22699.660000000003.
+_19:25:25.526 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 21919.66.
+h19:25:25.519 INFO  i.a.u.e.ACOSolver - found a better solution with an objective of 397642.6599999999.
+P19:25:25.533 INFO  i.a.u.e.ACOSolver - Number of total software solutions: 100
+R19:25:25.533 INFO  i.a.u.e.ACOSolver - Number of iterated software solutions: 18
+I19:25:25.534 INFO  i.a.u.e.ACOSolver - Number of iterated solutions: 18
+H19:25:25.534 INFO  i.a.u.e.ACOSolver - Number of correct solutions: 18
+@19:25:25.535 DEBUG d.t.i.s.m.s.HandwrittenTestSuite - Solution:
+solution {
+ request0 -> configA0 {
+  compute_resource_0 -> r3 {
+   cpu_1 -> cpu0_0
+  }
+  beta -> configB0 {
+   compute_resource_0 -> r1 {
+    cpu_1 -> cpu1_0
+   }
+   chi -> configC0 {
+    compute_resource_0 -> r4 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   delta -> configD0 {
+    compute_resource_0 -> r6 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+  epsilon -> configE0 {
+   compute_resource_0 -> r2 {
+    cpu_1 -> cpu2_0
+   }
+   phi -> configF0 {
+    compute_resource_0 -> r5 {
+     cpu_1 -> cpu0_0
+    }
+   }
+   gamma -> configG0 {
+    compute_resource_0 -> r0 {
+     cpu_1 -> cpu0_0
+    }
+   }
+  }
+ }
+}
+

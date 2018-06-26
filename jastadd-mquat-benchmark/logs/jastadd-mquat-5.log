@@ -1,0 +1,45 @@
+22:30:17.582 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - ScenarioBenchmark:
+Timeout: 15 minutes
+TopLevelComponents: 1
+AvgNumImplSubComponents: 0
+ImplSubComponentDerivation: 0
+AvgNumCompSubComponents: 2
+CompSubComponentDerivation: 0
+ComponentDepth: 2
+NumImplementations: 10
+Requests: 15
+Cpus: 1
+ResourceRatio: 1.5
+Seed: 0
+Solvers: ir.ac.ui.eng.ACOSolver@4efbca5a, de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver@1b7cc17c, de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver@59662a0b, de.tudresden.inf.st.mquat.solving.simple.SimpleSolver@77fbd92c, uniks.EMFeRSolver@67c27493
+Repetitions: 1
+Result file: 4_medium.csv
+22:30:17.588 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Going to create 1 of 1 models
+22:30:17.592 DEBUG de.tudresden.inf.st.mquat.utils.TestGenerator - Test 0 with tlc=1, iac=0, isd=0, cac=2, csd=0, dep=2, imp=10, res=1.5, req=15, cpu=1, seed=0
+22:30:17.611 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Starting model generation
+22:30:17.661 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Model:  [3 component(s), 30 implementation(s), 15 request(s), 68 container(s)]
+22:30:17.685 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'aco'
+22:32:02.849 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 9193224.579999998.
+22:32:04.657 INFO  ir.ac.ui.eng.ACOSolver - found a better solution with an objective of 9191113.169999998.
+22:32:07.570 INFO  ir.ac.ui.eng.ACOSolver - Number of total software solutions: 50000
+22:32:07.571 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated software solutions: 6451
+22:32:07.571 INFO  ir.ac.ui.eng.ACOSolver - Number of iterated solutions: 31
+22:32:07.571 INFO  ir.ac.ui.eng.ACOSolver - Number of correct solutions: 5
+22:32:07.572 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver aco found a valid solution in 109883ms
+22:32:07.576 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'ilp-direct'
+22:47:08.656 INFO  de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver - MIP Solving was stopped after time limit was reached.
+22:47:08.656 WARN  de.tudresden.inf.st.mquat.solving.ilp.ILPDirectSolver - MIP solution is integer feasible, however, its optimality (or non-optimality) has not been proven, perhaps due to premature termination of the search
+22:47:08.662 DEBUG de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Solver ilp-direct found a valid solution in 4046 + 897017ms -> Timed out
+22:47:08.670 INFO  de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Calling solver 'ilp-external'
+23:02:12.194 ERROR de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark - Catching
+de.tudresden.inf.st.mquat.solving.SolvingException: Solving did not finish within 15 MINUTES
+	at de.tudresden.inf.st.mquat.solving.ilp.ILPExternalSolver.solve0(ILPExternalSolver.java:119) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.solving.ilp.AbstractILPSolver.solve(AbstractILPSolver.java:101) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.benchmark.Benchmark.solveAndAppend(Benchmark.java:294) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.benchmark.Benchmark.runScenario(Benchmark.java:244) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.benchmark.ScenarioBenchmark.runScenario(ScenarioBenchmark.java:41) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.benchmark.Benchmark.lambda$0(Benchmark.java:187) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.utils.TestGenerator.generateScenarioGenerator(TestGenerator.java:60) ~[bin/:?]
+	at de.tudresden.inf.st.mquat.benchmark.Benchmark.run(Benchmark.java:187) ~[bin/:?]
+	at java.util.ArrayList.forEach(Unknown Source) [?:1.8.0_65]
+	at de.tudresden.inf.st.mquat.benchmark.FullBenchmarkMain.main(FullBenchmarkMain.java:33) [bin/:?]
